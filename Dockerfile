@@ -7,4 +7,4 @@ RUN apt-get update && \
  rm -rf /var/lib/apt/lists/*
 
 # start lldpd
-ENTRYPOINT ["lldpd", "-dd", "-l"]
+ENTRYPOINT ["lldpd", "-ddd", "-l"]
